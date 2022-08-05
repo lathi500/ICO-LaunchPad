@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appHeader {
+  background-color: #282c34;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+}
+
+.connectButton {
+  border: 1px solid #fff;
+  padding-block: 10px;
+  padding-inline: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+  background-color: #dbd3d8;
+  color: #223843;
+}
+
+.connectButton:hover {
+  border: 1px solid #333;
+  color: #333;
+  background-color: #fff;
+}
+
+.appBody {
+  margin-block: 20px;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #eff1f3;
+}
+
+.icoList {
+  height: 80vh;
+  border: 1px solid #223843;
+  background-color: #eff1f3;
+  width: 80%;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.icoList > h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+.icoList > .line {
+  height: 2px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.icoNot {
+  text-align: center;
+  text-justify: inherit;
+  color: #666;
+}
+
+.icoListData {
+  background-color: #111;
+}
+
+.footer {
+  background-color: #223843;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 20px;
+  color: white;
+}
+
+.launchButton {
+  border: 2px solid #fff;
+  padding-block: 10px;
+  padding-inline: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+  background-color: #1deb5b;
+  color: #111;
+  font-size: 16px;
+}
+
+.launchButton:hover {
+  border: 2px solid #1deb5b;
+  color: #333;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+/* .popup {
+  display: flex;
+  padding-block: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  z-index: 10;
+} */

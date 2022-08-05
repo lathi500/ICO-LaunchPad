@@ -1,0 +1,52 @@
+.launch {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40vw;
+  background-color: #777;
+  border-radius: 20px;
+  padding: 20px;
+}
+/* 
+.launch > input {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+} */
+
+.launch > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+  right: -10px;
+  top: -10px;
+  font-size: 30px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  text-align: center;
+  height: 40px;
+  padding: 20px;
+  font: 20px bold;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+}

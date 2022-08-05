@@ -1,0 +1,59 @@
+.modalContainer {
+  height: 100%;
+  width: 50vw;
+  background-color: #888;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  font: 16px bold;
+}
+
+.textContainer {
+  display: flex;
+  padding-block: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer > label {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.textContainer > input {
+  font-size: 18px;
+  padding: 5px 5px 5px 20px;
+  border-radius: 10px;
+}
+
+.modalContainer > button {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.modalContainer > .line {
+  height: 2px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.modalContainer > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+  right: -10px;
+  top: -20px;
+  font-size: 30px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
